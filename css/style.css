@@ -5,6 +5,10 @@
   padding: 0;
   font-family: Roboto, sans-serif;
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 body > div > * {
   width: 80%;
@@ -15,7 +19,10 @@ body > div > * {
 footer {
   background-color: #1f2937;
 }
-
+#top-image {
+  height: 250px;
+  border-radius: 10px;
+}
 .header h3 {
   font-size: 24px;
   color: #f9faf8;
@@ -68,4 +75,36 @@ ul {
 
 #sign-up-two {
   border: 1px solid #f9faf8;
+}
+
+.second-section {
+  padding: 20px;
+}
+
+body > div > h2 {
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.small-image {
+  height: 150px;
+  border-radius: 10px;
+}
+
+.second-section .images .image {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image p {
+  text-align: center;
 }
