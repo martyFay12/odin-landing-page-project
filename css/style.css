@@ -149,3 +149,12 @@ body > div > h2 {
 .blue-box p {
   color: #e5e7eb;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  color: #e5e7eb;
+  font-size: 12px;
+}
