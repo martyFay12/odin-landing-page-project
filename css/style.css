@@ -108,3 +108,22 @@ body > div > h2 {
 .image p {
   text-align: center;
 }
+
+.third-section {
+  background-color: #e5e7eb;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 100;
+}
+
+.credit {
+  color: #1f2937;
+  font-weight: 600;
+  text-align: end;
+}
